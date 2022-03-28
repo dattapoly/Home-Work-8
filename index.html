@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW8</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+            gap: 5px;
+        }
+        .header{
+        grid-column: 1/-1;
+        }
+        .footer{
+            grid-column:1/-1;
+        }
+        .box1{
+            grid-column:1/4;
+            grid-row: 2/4;
+        }
+        
+        .box2{
+            grid-column:4/7;
+            grid-row: 2/4;
+        }
+        .box3{
+            grid-column:7/10;
+            grid-row: 2/4;
+        }
+        .maincontent{
+            
+            grid-row: 4/12;
+            grid-column: 1/10;
+        }
+        .sidebar{
+            grid-row:2/12;
+            grid-column: 10/-1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="header">Header</div>
+       <div class="box1">Box1</div>
+       <div class="box2">Box2</div>
+       <div class="box3">box3</div>
+       <div class="maincontent">Main content</div>
+       <div class="sidebar">Sidebar</div>
+       <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

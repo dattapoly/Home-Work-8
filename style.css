@@ -1,0 +1,32 @@
+html,body{
+    background-color: blueviolet;
+    height: 100%;
+    margin: 10px;
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.container>div:nth-child(1n){
+    background-color: blue;
+}
+.container>div:nth-child(2n){
+    background-color: brown;
+}
+.container>div:nth-child(3n){
+    background-color: cadetblue;
+}
+.container>div:nth-child(4n){
+    background-color: chartreuse;
+}
+.container>div:nth-child(5n){
+    background-color: coral;
+}
+.container>div:nth-child(6n){
+    background-color: cyan;
+}
+.container>div:nth-child(7n){
+    background-color: darkgreen;
+}
